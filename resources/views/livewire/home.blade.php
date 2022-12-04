@@ -1,4 +1,4 @@
-<title>{{$title}}</title>
+<title>{{ $title }}</title>
 <div>
-   <h1>Home</h1>
+    @extends('layouts.navbar')
 </div>
