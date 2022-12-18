@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('/livewire/home');
-});
+// Route::get('/', function () {
+//     return view('/livewire/home');
+// });
 
-Route::get('/home', Home::class)->name('home');
+Route::get('/', Home::class)->name('home');
